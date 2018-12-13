@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/stroe.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+<!-- 引入网页头部 -->
+<header style="height:179px;width:100%" id="header"></header>
+<!-- 导航栏1 -->
+<div id="daohang">
+    <ul class="daohang">
+        <li><a href="#"><u>家</u></a></li>
+        <li><a href="#">热卖</a></li>
+        <li><a href="#">分类</a></li>
+        <li><a href="#">笔记本电脑</a></li>
+        <li><a href="#">智能手机</a></li>
+        <li><a href="#">相机</a></li>
+        <li><a href="#">饰品</a></li>
+    </ul>
+</div>
+<!-- 导航栏2 -->
+<div class="daohang2">
+   <p class="ml-3">家</p><p>/</p><p>所有类别</p><p>/</p><p>饰品</p><p>/</p><p>耳机(227,490结果)</p>
+</div>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-xl-3">
+            <div>
+                <h5 class="mb-4 font-weight-bold">分类</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <input type="checkbox" class="" id="c1"><span><label for="c1">笔记本电脑</label></span>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="" id="c2"><span><label for="c2">智能手机</label></span>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="" id="c3"><span><label for="c3">相机</label></span>
+                    </li>
+                    <li class="mb-2">
+                        <input type="checkbox" class="" id="c4"><span><label for="c4" class="">配件</label></span>
+                    </li>
+                </ul>
+            </div>
+            <h5 class="mb-4">价格</h5>
+            <div class="d-flex flex-row mb-4">
+                <div class="input_num">
+                    <input type="text" value="1.00" class="my_input_s">
+                    <span class="my_btn s_up">+</span>
+                    <span class="my_btn s_down">-</span>
+                </div>
+                <div class="input_num">
+                    -<input type="text" value="999.00" class="my_input_b">
+                    <span class="my_btn b_up">+</span>
+                    <span class="my_btn b_down">-</span>
+                </div>
+            </div>
+
+            <h5 class="mb-4 font-weight-bold">品牌</h5>
+            <ul class="list-unstyled">
+                <li class="mb-2">
+                    <input type="checkbox" id="b1"><span><label for="c1">三星</label></span>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" id="b2"><span><label for="c2">索尼</label></span>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" id="b3"><span><label for="c3">LG</label></span>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" id="b4"><span><label for="c4">尼康</label></span>
+                </li>
+            </ul>
+            <h5 class="mb-4 font-weight-bold">热销</h5>
+            <div class="row mb-4">
+                <div class="col-xl-4">
+                    <img src="img/product01.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-xl-8">
+                    <span>分类</span>
+                    <br>
+                    <a href="#" class="small text-dark font-weight-bold">产品名</a>
+                    <br>
+                    <span><b class="text-danger">$980.00</b><s class="text-muted">$990.00</s></span>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-4">
+                    <img src="img/product02.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-xl-8">
+                    <span>分类</span>
+                    <br>
+                    <a href="#" class="small text-dark font-weight-bold">产品名</a>
+                    <br>
+                    <span><b class="text-danger">$980.00</b><s class="text-muted">$990.00</s></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4">
+                    <img src="img/product03.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-xl-8">
+                    <span>分类</span>
+                    <br>
+                    <a href="#" class="small text-dark font-weight-bold">产品名</a>
+                    <br>
+                    <span><b class="text-danger">$980.00</b><s class="text-muted">$990.00</s></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-9">
+            <div class="mb-2">
+                    <span>
+                        排序方式:
+                            <select class="btn btn-light">
+                                <option>销量</option>
+                                <option>价格</option>
+                            </select>
+                        每页显示:
+                            <select class="btn btn-light">
+                                <option>9</option>
+                                <option>12</option>
+                            </select>
+                    </span>
+            </div>
+            <div class="row mb-4 stroe">
+            </div>
+            <div class="row">
+                <div class="col-xl-4 offset-8 ">
+                    <ul class="pagination">
+                        <li class="page-item disabled"><a href="#" class="page-link text-dark ">上一页</a></li>
+                        <li class="page-item"><a href="#" class="page-link text-dark">下一页</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!--尾部-->
+<div id="top">
+    <h5 class="text-center">注册NEWSLETTER</h5>
+    <input type="text" placeholder="Enter Your Email" class="border-left-0">
+    <button class="border-right-0">订阅</button>
+    <ul class="list-unstyled d-flex justify-content-center">
+        <li><a href="#" class="my_small border-right-0">F</a></li>
+        <li><a href="#" class="my_small border-right-0">W</a></li>
+        <li><a href="#" class="my_small border-right-0">A</a></li>
+        <li><a href="#" class="my_small">S</a></li>
+    </ul>
+</div>
+<div class="row" id="center">
+    <div class="col-2"></div>
+    <div class="col-2 pt-5">
+        <h5>关于我们</h5>
+        <p>Lorem ipsum dolor坐在amet，consectetur adipisicing elit，sed do eiusmod tempor incididunt ut</p>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">地址 1734年石炭路</a></li>
+            <li class="pb-1"><a href="#">电话 + 021-95-51-84</a></li>
+            <li class="pb-1"><a href="#">邮箱 email@email.com</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>分类</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">热卖</a></li>
+            <li class="pb-1"><a href="#">笔记本电脑</a></li>
+            <li class="pb-1"><a href="#">智能手机</a></li>
+            <li class="pb-1"><a href="#">相机</a></li>
+            <li class="pb-1"><a href="#">饰品</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>信息</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">关于我们</a></li>
+            <li class="pb-1"><a href="#">联系我们</a></li>
+            <li class="pb-1"><a href="#">隐私政策</a></li>
+            <li class="pb-1"><a href="#">订单和退货</a></li>
+            <li class="pb-1"><a href="#">条款和条件</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>服务</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">我的账户</a></li>
+            <li class="pb-1"><a href="#">查看购物车</a></li>
+            <li class="pb-1"><a href="#">收藏</a></li>
+            <li class="pb-1"><a href="#">追踪我的订单</a></li>
+            <li class="pb-1"><a href="#">救命</a></li>
+        </ul>
+    </div>
+    <div class="col-2"></div>
+</div>
+<div id="button">
+    <a href="#"><img src="img/footer.PNG" class="pt-3 pb-3"></a>
+    <p class="mb-0">版权所有&copy;&nbsp;2018保留所有权利|&nbsp;这是我的作业</p>
+</div>
+</body>
+<script src="js/header.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/stroe.js"></script>
+</html>

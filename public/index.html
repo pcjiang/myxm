@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax.js"></script>  
+    <title></title>
+</head>
+<body>
+<!-- 引入网页头部 -->
+<header style="height:179px;width:100%" id="header"></header>
+<!-- 主体 -->
+<!-- 导航栏 -->
+  <div id="daohang">
+    <ul class="daohang">
+        <li><a href="#"><u>家</u></a></li>
+      <li><a href="#">热卖</a></li>
+      <li><a href="#">分类</a></li>
+      <li><a href="#">笔记本电脑</a></li>
+      <li><a href="#">智能手机</a></li>
+      <li><a href="#">相机</a></li>
+      <li><a href="#">饰品</a></li>
+      </ul>
+  </div>
+<!-- 导航图片 -->
+  <div class="dhtu d-flex justify-content-around">
+      <div class="tou1"><img src="img/shop01.png"></div>
+      <div><img src="img/shop02.png"></div>
+      <div class="tou3"><img src="img/shop03.png"></div>
+  </div>
+<!-- 导航栏2 -->
+  <div class="d-flex justify-content-around tou4">
+      <h4>新产品</h4>
+      <ul class="list-unstyled">
+          <li class="float-right pr-3"><a href="#">笔记本电脑</a></li>
+          <li class="float-right pr-3"><a href="#">智能手机</a></li>
+          <li class="float-right pr-3"><a href="#">相机</a></li>
+          <li class="float-right pr-3"><a href="#"><u>饰品</u></a></li>
+      </ul>
+  </div>
+<!-- 轮播图 -->
+<div class="banner">
+    <div class="chao" id="banner"> 
+   </div>
+</div>
+<!-- 按钮 -->
+<div class="my_button pt-4">
+    <button id="leftBtn">＜</button>
+    <button id="rightBtn">＞</button>
+</div>
+<!-- 大图 -->
+<div class="row my_big mt-4 mb-5" style="width:100%">
+    <div class="col-4"><img src="img/product08.png" style="width: 500px;height: 500px"></div>
+    <div class="col-4 text-center mt-5">
+        <ul class="list-unstyled my_ul pt-5 mt-5">
+            <li>
+                <div>
+                    <h3 class="pt-3" id="day">02</h3>
+                    <span>天</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h3 class="pt-3" id="time">10</h3>
+                    <span>小时</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h3 class="pt-3" id="minute">34</h3>
+                    <span>分钟</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h3 class="pt-3" id="second">60</h3>
+                    <span>秒</span>
+                </div>
+            </li>
+        </ul>
+        <h2 class="mt-5" id="span">本周特卖</h2>
+        <p class="mt-3">新系列高达50%OFF</p>
+        <a href="#" class="btn btn-danger rounded mt-4">现在去购物</a>
+    </div>
+    <div class="col-4"><img src="img/product02.png" style="width: 500px;height: 500px"></div>
+</div>
+<!-- 导航栏3 -->
+<div class="d-flex justify-content-around tou4 mb-4">
+    <h4>畅销</h4>
+    <ul class="list-unstyled">
+        <li class="float-right pr-3"><a href="#">ship</a></li>
+        <li class="float-right pr-3"><a href="#">相机</a></li>
+        <li class="float-right pr-3"><a href="#">手机</a></li>
+        <li class="float-right pr-3"><a href="#"><u>笔记本电脑</u></a></li>
+    </ul>
+</div>
+<!-- 轮播图 -->
+<div class="row banner2" style="width:100%">
+</div>
+<!-- 按钮 -->
+<div class="my_button pt-4">
+    <span>＜</span>
+    <span>＞</span>
+</div>
+<!--尾部-->
+  <div id="top">
+    <h5 class="text-center">注册NEWSLETTER</h5>
+    <input type="text" placeholder="Enter Your Email" class="border-left-0">
+    <button class="border-right-0">订阅</button>
+    <ul class="list-unstyled d-flex justify-content-center">
+        <li><a href="#" class="my_small border-right-0">F</a></li>
+        <li><a href="#" class="my_small border-right-0">W</a></li>
+        <li><a href="#" class="my_small border-right-0">A</a></li>
+        <li><a href="#" class="my_small">S</a></li>
+    </ul>
+</div>
+  <div class="row" id="center">
+    <div class="col-2"></div>
+    <div class="col-2 pt-5">
+        <h5>关于我们</h5>
+        <p>Lorem ipsum dolor坐在amet，consectetur adipisicing elit，sed do eiusmod tempor incididunt ut</p>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">地址 1734年石炭路</a></li>
+            <li class="pb-1"><a href="#">电话 + 021-95-51-84</a></li>
+            <li class="pb-1"><a href="#">邮箱 email@email.com</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>分类</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">热卖</a></li>
+            <li class="pb-1"><a href="#">笔记本电脑</a></li>
+            <li class="pb-1"><a href="#">智能手机</a></li>
+            <li class="pb-1"><a href="#">相机</a></li>
+            <li class="pb-1"><a href="#">饰品</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>信息</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">关于我们</a></li>
+            <li class="pb-1"><a href="#">联系我们</a></li>
+            <li class="pb-1"><a href="#">隐私政策</a></li>
+            <li class="pb-1"><a href="#">订单和退货</a></li>
+            <li class="pb-1"><a href="#">条款和条件</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>服务</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">我的账户</a></li>
+            <li class="pb-1"><a href="#">查看购物车</a></li>
+            <li class="pb-1"><a href="#">收藏</a></li>
+            <li class="pb-1"><a href="#">追踪我的订单</a></li>
+            <li class="pb-1"><a href="#">救命</a></li>
+        </ul>
+    </div>
+    <div class="col-2"></div>
+</div>
+  <div id="button">
+    <a href="#"><img src="img/footer.PNG" class="pt-3 pb-3"></a>
+    <p class="mb-0">版权所有&copy;&nbsp;2018保留所有权利|&nbsp;这是我的作业</p>
+</div>
+<script src="js/index.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

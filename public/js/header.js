@@ -1,0 +1,51 @@
+$(function(){
+    //1.动态创建link引用header.css
+    $("<link rel='stylesheet' href='css/header.css'>").appendTo("head")
+    //2.ajax请求header.html片段
+    $.ajax({
+        url:"http://localhost:3000/header.html",
+        type:"get",
+        success:function(res){
+        $("#header").replaceWith(res)
+        var $btnSearch=$(".input-button")
+        var $input=$btnSearch.parent().children(".input")
+        //点击搜索
+        $btnSearch.click(function(){
+            var kw=$input.val().trim();
+            if(kw!=="")
+            location.href=`stroe.html?kwords=${kw}`
+        })
+        //键盘事件
+        $input.keyup(function(e){
+           if(e.keyCode==13)
+           $btnSearch.click()      
+        })
+        //头部登录后跳回原网址的功能
+        $("#uname").click(function(){
+            location.href=
+              "login.html?back="+location.href;
+          })
+        $.ajax({
+            url:"http://localhost:3000/user/islogin",
+            type:"get",
+            dataType:"json",
+            success:function(data){
+              if(data.ok==1){
+                $("#uname").html(data.uname);
+                $("#signout").html("注销")
+                $("#register").hide()
+              }
+            }
+          })
+        $("#signout").click(function(event){
+            event.preventDefault();   
+            $.ajax({
+            url:"http://localhost:3000/user/signout",
+            type:"get",
+            success:function(){
+                location.reload()
+            }
+        })})   
+        }
+    })
+})

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    font-weight: 500;
+    color: #FFF;
+}

@@ -1,0 +1,159 @@
+*{margin:0;padding:0}
+#daohang ul li a:hover{
+    color:red;
+}
+#daohang ul{
+    list-style: none;
+}
+#daohang ul li a{
+    color:black
+}
+#daohang ul>li:first-child>a {
+     color:red;
+ }
+#daohang ul>li{
+    float:left;
+    margin-right: 30px;
+}
+#daohang{
+    position: relative;
+    background: #FFF;
+    line-height:60px;
+    height: 68px;
+    border-top:0;
+    border-bottom:3px solid gray;
+}
+.daohang{
+    position:absolute;
+    left:140px;
+}
+.dhtu>div>img{
+    width:360px;
+    height:240px;
+    background: #f7f7f7;
+    transition: all .2s linear;
+}
+.dhtu>div>img:hover{
+    transform: scale(1.1);
+}
+.dhtu>div{
+    overflow: hidden;
+}
+.dhtu{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tou1{
+    margin-left: 180px;
+}
+.tou3{
+    margin-right: 180px;
+}
+.tou4>ul>li>a:hover{
+    color:red;
+}
+.tou4>ul>li>a{
+    color:black;
+}
+.tou4>ul>li:last-child>a{
+    color:red;
+}
+.my_img{
+    width:263px;
+    height:263px;
+}
+.my_div{
+    border:1px solid gainsboro;
+    padding-right: 0;
+    width:250px;
+    float:left;
+}
+.my_div:hover{
+    border:2px solid red;
+}
+.my_border{
+    border-bottom:1px solid gainsboro;
+}
+.my_div div:last-child p{
+    color:gray;
+    font-size:0.8rem;
+}
+.my_div div:last-child h4{
+    font-size: 1rem;
+}
+.my_div div:last-child h5{
+    color:red;
+    font-size: 1.1rem;
+}
+.my_div div:last-child div:first-child{
+    margin-left:15px;
+}
+.my_div div:last-child div:last-child{
+    margin-right:15px;
+}
+.my_div div:last-child>div>div button{
+    border-radius: 50px 50px 50px 50px;
+    border:0;
+    font-size: 0.8rem;
+}
+.my_div div:last-child>div>div button:hover{
+    border:1px solid red;
+    background: red;
+}
+.my_button{
+    position: relative;
+    height: 50px;
+}
+.my_button button{
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: #f7f7f7;
+}
+.my_button button:first-child{
+    position: absolute;
+    right:280px;
+}
+.my_button button:last-child{
+    position: absolute;
+    right:250px;
+}
+.my_ul>li{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #D10024e6;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 5px;
+    color:white;
+}
+.my_big div:nth-child(2)>a:hover{
+    color:white!important;
+}
+.my_big{
+    background:#E4E7ED;
+}
+.banner{
+    width:1000px;
+    height:445px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.chao{
+    width:1500px;
+    position:relative;
+    height:445px;
+    margin:auto;
+    display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+#daohang ul li a:hover{
+    color:red;
+}
+#daohang ul{
+    list-style: none;
+}
+#daohang ul li a{
+    color:black
+}
+#daohang ul>li:first-child>a {
+    color:red;
+}
+#daohang ul>li{
+    float:left;
+    margin-right: 30px;
+}
+#daohang{
+    position: relative;
+    background: #FFF;
+    line-height:60px;
+    height: 68px;
+    border-top:0;
+    border-bottom:1.5px solid gray;
+}
+.daohang{
+    position:absolute;
+    left:148px;
+}
+.daohang2 p{
+    float:left;
+    padding-right: 10px;
+}
+.daohang2{
+    height:87px;
+    line-height:87px;
+    padding-left:170px;
+    background:#f8f9fa;
+    border-bottom:1.5px solid gray;
+}
+div.input_num{
+    position: relative;
+}
+.my_input_s,.my_input_b{
+    width:5.8rem;
+    height:2.5rem;
+    outline: 0;
+    border:1px solid #E4E7ED;
+}
+.my_btn{
+    width:20px;
+    height:20px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border:1px solid #E4E7ED;
+    background: #fff;
+}
+.s_up{
+    position: absolute;
+    top:0px;
+    left:70px;
+    border-right: 0;
+}
+.s_down{
+    position: absolute;
+    top:20px;
+    left:70px;
+    border-right: 0;
+}
+.b_up{
+    position: absolute;
+    top:0px;
+    left:78px;
+    border-right: 0;
+}
+.b_down{
+    position: absolute;
+    top:20px;
+    left:78px;
+    border-right: 0;
+}
+.my_pro_bd{
+    border:1px solid #d7d9dc;
+}
+.my_pro_hv:hover{
+    border:2px solid #ff1a45;
+}
+div.product{
+    position: relative;
+}
+
+
+
+
+
+
+
+

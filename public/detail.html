@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+<!-- 引入网页头部 -->
+<header style="height:179px;width:100%" id="header"></header>
+<!-- 导航栏 -->
+<div id="daohang">
+    <ul class="daohang">
+        <li><a href="#"><u>家</u></a></li>
+        <li><a href="#">热卖</a></li>
+        <li><a href="#">分类</a></li>
+        <li><a href="#">笔记本电脑</a></li>
+        <li><a href="#">智能手机</a></li>
+        <li><a href="#">相机</a></li>
+        <li><a href="#">饰品</a></li>
+    </ul>
+</div>
+<!--导航栏2-->
+<div class="daohang2 mb-4">
+    <h4 class="pt-4">查看</h4><p class="ml-3">家/查看</p>
+</div>
+<!-- 主体 -->
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+            <div class="my_left" id="mimg">
+                <button class="pb-2" id="leftBtn">︿</button>
+                <div class="my_hidden">
+                    <ul id="ul" class="list-unstyled">
+                    </ul>
+                </div>
+                <button class="pt-2" id="rightBtn">﹀</button>
+            </div>
+        </div>
+        <div id="haha" class="col-5">
+            <div id="md">
+                <img src="img/product01.png" class="my-center">
+            </div>
+            <!-- 遮罩层 -->
+            <div id="mask" class="d-none"></div>
+            <!-- 玻璃层 -->
+            <div id="super-mask"></div>
+            <!-- 放大图 -->
+            <div id="lg" class="d-none"></div>
+        </div>
+        <div class="col-5">
+            <div class="my_right">
+                <p class="font-weight-bold lname">产品名称就在这里</p>
+                <div>
+                    <img src="img/hongxin5.PNG"><span class="ml-3">10评论|添加您的评论</span>
+                </div>
+                <div class="my_span_style mt-3">
+                    <span class="price">$980.00</span>
+                    <span class="price"><s>$990.00</s></span>
+                    <span class="small ml-5">有现货</span>
+                </div>
+                <p class="mt-3 title">
+                    宏碁(Acer)暗影骑士3游戏本 15.6英寸笔记本电脑AN5(i5八代标压 8G 128G SSD+1T GTX1050 4G IPS 背光键盘)
+                </p>
+                <div class="my_store_sort">
+                    <div class="float-left">
+                        <span>尺寸</span>
+                        <select class="input_select pl-3">
+                            <option>X</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span>颜色</span>
+                        <select class="input_select pl-3">
+                            <option>红色</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="my_price_input">
+                        <input type="text" value="1.00" class="pl-2">
+                        <span>+</span>
+                        <span>-</span>
+                    </div>
+                    <button class="my_button">添加到购物车</button>
+                </div>
+                <div>
+                    <button class="my_div_button">加入愿望清单</button>
+                    <button class="my_div_button ml-3">加入对比</button>
+                </div>
+                <p class="mt-4 ml-5 small">
+                    类别：头戴耳机 饰品
+                </p>
+                <p class="mt-4 ml-5">
+                    分享：<img src="img/100.PNG">
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>相关产品</p>
+    <div class="d-flex justify-content-between mt-5">
+        <div class="my_right_img_div">
+            <div class="position_nav">
+                <span>NEW</span><span>-30%</span>
+                <img src="img/product01.png" class="my_right_img">
+            </div>
+            <div class="my_right_bottom_div text-center">
+                <p>类别</p>
+                <a href="#">产品名称就在这里</a><br>
+                <span>$980.00</span><s>$990.00</s><br>
+                <img src="img/hongxin5.PNG"><br>
+                <button>赞</button>
+                <button>买</button>
+                <button>看</button>
+            </div>
+        </div>
+        <div class="my_right_img_div">
+            <div class="position_nav">
+                <span>NEW</span><span>-30%</span>
+                <img src="img/product02.png" class="my_right_img">
+            </div>
+            <div class="my_right_bottom_div text-center">
+                <p>类别</p>
+                <a href="#">产品名称就在这里</a><br>
+                <span>$980.00</span><s>$990.00</s><br>
+                <img src="img/hongxin5.PNG"><br>
+                <button>赞</button>
+                <button>买</button>
+                <button>看</button>
+            </div>
+        </div>
+        <div class="my_right_img_div">
+            <div class="position_nav">
+                <span>NEW</span><span>-30%</span>
+                <img src="img/product03.png" class="my_right_img">
+            </div>
+            <div class="my_right_bottom_div text-center">
+                <p>类别</p>
+                <a href="#">产品名称就在这里</a><br>
+                <span>$980.00</span><s>$990.00</s><br>
+                <img src="img/hongxin5.PNG"><br>
+                <button>赞</button>
+                <button>买</button>
+                <button>看</button>
+            </div>
+        </div>
+        <div class="my_right_img_div">
+            <div class="position_nav">
+                <span>NEW</span><span>-30%</span>
+                <img src="img/product08.png" class="my_right_img">
+            </div>
+            <div class="my_right_bottom_div text-center">
+                <p>类别</p>
+                <a href="#">产品名称就在这里</a><br>
+                <span>$980.00</span><s>$990.00</s><br>
+                <img src="img/hongxin5.PNG"><br>
+                <button>赞</button>
+                <button>买</button>
+                <button>看</button>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+</div>
+<!-- 网页底部 -->
+<div id="top">
+    <h5 class="text-center">注册NEWSLETTER</h5>
+    <input type="text" placeholder="Enter Your Email" class="border-left-0">
+    <button class="border-right-0">订阅</button>
+    <ul class="list-unstyled d-flex justify-content-center">
+        <li><a href="#" class="my_small border-right-0">F</a></li>
+        <li><a href="#" class="my_small border-right-0">W</a></li>
+        <li><a href="#" class="my_small border-right-0">A</a></li>
+        <li><a href="#" class="my_small">S</a></li>
+    </ul>
+</div>
+<div class="row" id="center">
+    <div class="col-2"></div>
+    <div class="col-2 pt-5">
+        <h5>关于我们</h5>
+        <p>Lorem ipsum dolor坐在amet，consectetur adipisicing elit，sed do eiusmod tempor incididunt ut</p>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">地址 1734年石炭路</a></li>
+            <li class="pb-1"><a href="#">电话 + 021-95-51-84</a></li>
+            <li class="pb-1"><a href="#">邮箱 email@email.com</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>分类</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">热卖</a></li>
+            <li class="pb-1"><a href="#">笔记本电脑</a></li>
+            <li class="pb-1"><a href="#">智能手机</a></li>
+            <li class="pb-1"><a href="#">相机</a></li>
+            <li class="pb-1"><a href="#">饰品</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>信息</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">关于我们</a></li>
+            <li class="pb-1"><a href="#">联系我们</a></li>
+            <li class="pb-1"><a href="#">隐私政策</a></li>
+            <li class="pb-1"><a href="#">订单和退货</a></li>
+            <li class="pb-1"><a href="#">条款和条件</a></li>
+        </ul>
+    </div>
+    <div class="col-2 pt-5">
+        <h5>服务</h5>
+        <ul class="list-unstyled">
+            <li class="pb-1"><a href="#">我的账户</a></li>
+            <li class="pb-1"><a href="#">查看购物车</a></li>
+            <li class="pb-1"><a href="#">收藏</a></li>
+            <li class="pb-1"><a href="#">追踪我的订单</a></li>
+            <li class="pb-1"><a href="#">救命</a></li>
+        </ul>
+    </div>
+    <div class="col-2"></div>
+</div>
+<div id="button">
+    <a href="#"><img src="img/footer.PNG" class="pt-3 pb-3"></a>
+    <p class="mb-0">版权所有&copy;&nbsp;2018保留所有权利|&nbsp;这是我的作业</p>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

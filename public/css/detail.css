@@ -1,0 +1,277 @@
+/*导航*/
+.daohang2 h4{
+    float:left;
+}
+.daohang2 p{
+    float:left;
+}
+.daohang2{
+    height:87px;
+    line-height:87px;
+    padding-left:170px;
+    background:#f8f9fa;
+    border-bottom:3px solid gray;
+}
+/*主体*/
+.my_hidden{
+    position:relative;
+    height: 459px;
+    overflow: hidden;
+    top:20px;
+}
+.my_left{
+    width:153px;
+    height:510px;
+    position: relative;
+}
+.my_left>button{
+    width:40px;
+    height:40px;
+    border:1px solid lightgray;
+    background: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left:55px;
+    position:absolute;
+    z-index:10;
+}
+.my_left>button:last-child{
+    left:0;
+    top:465px;
+}
+.my_left>div>ul{
+    position: absolute;
+}
+.my_left>div>ul>li{
+    width:153px;
+    height:153px;
+}
+.my_left>div>ul>li>img{
+    width:153px;
+    height:153px;
+    border:1px solid lightgray;
+}
+/*中*/
+.my-center{
+    width:500px;
+    height:500px;
+    position: absolute;
+    left:0;
+}
+/*右*/
+.my_right{
+    width:457.5px;
+    height:440.5px;
+}
+.my_span_style>span:first-child{
+    font-weight: bold;
+    font-size:24px;
+    color:red;
+}
+.my_span_style>span:nth-child(2){
+    font-size:20px;
+    color:gray;
+}
+.my_span_style>span:nth-child(3){
+    font-weight: bold;
+    color:red;
+}
+.my_store_sort{
+    width:457.5px;
+    height:40px;
+}
+.input_select{
+    width:90px;
+    height:40px;
+    border: 0;
+    border:1px solid lightgray;
+}
+.my_price_input{
+    width:90px;
+    height:40px;
+    position: relative;
+    top:30px;
+    border:1px solid lightgray;
+    border: 0;
+    left:36px;
+}
+.my_price_input>input{
+    width:90px;
+    height:40px;
+    position: absolute;
+}
+.my_button{
+    width:148px;
+    height:40px;
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    background: red;
+    border:0;
+    margin:-10px 150px;
+}
+.my_div_button{
+    border:0;
+    border-radius: 10px;
+    background: green;
+    color:white;
+    padding:5px;
+    margin-top:35px;
+    margin-left:36px;
+}
+.my_price_input>span:nth-child(2){
+    display: inline-block;
+    width:20px;
+    height:20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.my_price_input>span:last-child{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 15px;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+/*相关产品*/
+.container>p{
+    font-size:28px;
+    font-weight: bold;
+    margin:50px;
+    text-align: center;
+}
+/*图*/
+.my_right_img_div{
+    width:263px;
+    height:449px;
+}
+.my_right_img{
+    width:263px;
+    height:263px;
+    border:1px solid lightgray;
+    border-bottom:0;
+}
+.my_right_bottom_div{
+    weight:263px;
+    height:186px;
+    border:1px solid lightgray;
+    border-top:0;
+}
+.my_right_bottom_div>p{
+    color:lightgray;
+}
+.my_right_bottom_div>a{
+    color:black;
+    font-weight:bold;
+}
+.my_right_bottom_div>a:hover{
+    color:red;
+    text-decoration:none;
+}
+.my_right_bottom_div>span{
+    font-size:20px;
+    color:red;
+    font-weight:bold;
+    padding:0 5px 0 5px;
+}
+.my_right_bottom_div>s{
+    color:lightgray;
+}
+.my_right_bottom_div>img{
+    margin:20px 0 10px 0
+}
+.my_right_bottom_div>button{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:transparent;
+    border:0;
+    color:red;
+    font-weight: bold;
+}
+.my_right_bottom_div>button:hover{
+    background:lightgray;
+}
+.position_nav{
+    position:relative;
+}
+.position_nav>span:first-child{
+    display: inline-block;
+    width:55px;
+    height:23px;
+    position: absolute;
+    right:20px;
+    background:red;
+    color:white;
+    top:15px;
+    line-height: 23px;
+    text-align:center;
+    font-size:14px;
+}
+.position_nav>span:nth-child(2){
+    display: inline-block;
+    width:55px;
+    height:23px;
+    position: absolute;
+    right:85px;
+    top:15px;
+    color:red;
+    line-height: 20px;
+    text-align:center;
+    font-size:14px;
+    border:2px solid red;
+}
+/*js类css*/
+/*1:放大镜效果*/
+.container .row #haha{
+    width:500px;
+    height:500px;
+    position:relative;
+}
+.container .row #haha #mask{
+    width:250px;
+    height:250px;
+    background-color: #ffa;
+    opacity: 0.5;
+    z-index: 666;
+    position: absolute;
+}
+.container .row #haha #super-mask{
+    width:500px;
+    height:500px;
+    position:absolute;
+    top:0;
+    left:0;
+    background: transparent;
+    z-index: 999;
+}
+.container .row #haha #lg{
+    width:500px;
+    height:500px;
+    background-image: url("../img/product01.png");
+    background-repeat: no-repeat;
+    background-size:1000px 1000px;
+    background-color:white;
+    position: absolute;
+    left:502px;
+    z-index: 10;
+    border: 1px solid lightgray;
+}
+.d-none{
+   display: none;
+}
+#ul>li>img:hover{
+  border:1px solid red;
+  transition: 0.5s;
+  transform:scale(0.9);
+  transform-origin:center;
+}
